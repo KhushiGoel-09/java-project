@@ -35,10 +35,11 @@ public class P2_Task02_Constantinjava {
 			return (a+b);
 		}
         static int multi(int a,int b) {
-        	return (a * b)
+        	return (a * b);
         }
 	}
 class Calculator {
+	private static final char[] Pi = null;
 	int a=10;
 	
 	int add(int a, int b) {

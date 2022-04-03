@@ -28,7 +28,7 @@ public class P2_Task01_KeywordsInJava {
 	//class name[given below]
 	//ABC int = new ABC();
 	ABC obj = new ABC();
-	//System.out.print(ob);
+	//System.out.print(obj);
 	func();
 }
 	
