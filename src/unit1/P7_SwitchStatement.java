@@ -25,21 +25,22 @@ class SwitchStatements {
 	void switchStatements() {
 		
 		// Write Logic here!
-		Scanner obj=new Scanner(System.in);
-		int n=obj.nextInt();
+		Scanner myObj1=new Scanner(System.in);
+		System.out.println("enter value here:");
+		int name=myObj1.nextInt();
 		
-		switch(n)
+		switch(name)
 		{
 		case 1:
-			System.out.println("the current year is - ");
+			System.out.println("2022");
 			break;
 			
 		case 2:
-			System.out.println("the current month is - ");
+			System.out.println("April");
 			break;
 			
 		case 3:
-			System.out.println("the current day is - ");
+			System.out.println("Saturday");
 			break;
 			
 		case 4:
