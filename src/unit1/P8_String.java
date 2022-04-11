@@ -36,35 +36,54 @@ class QuestionsOnString {
 
 	void palindromeOrNot(String s) {
 		// Write Logic Here!
-		for(int i=0;i<s.length(); i++)
+		int i=0,flag=0;
+		int j=s.length()-1;
+		while(i<j)
 		{
-			if(s.charAt(i)!=s.charAt(s.length()-i-1))
+			if(s.charAt(i)!=s.charAt(j))
 			{
-				System.out.println("Not, it's not a palindrome");
-				return;
-			}	
+				flag=1;
+				break;
+			}
+			i++;
+			j--;
 		}
-		System.out.println("Yes, it is a palindrome");
+		if (flag==1)
+			System.out.println("Not Palindrome");
+		else
+			System.out.println("Palindrome");
 	}
 
 	void reverseOfAString(String s) {
 		// Write Logic Here!
-        String temp="";
-		
-		for(int i=0;i<s.length(); i++)
-		{
-			temp=s.charAt(i)+temp;
-		}
-		
-		System.out.println("The reverse of "+s+" is "+temp);
+		int l=s.length()-1;
+		for(int i=l;i>=0;i--)
+			System.out.print(s.charAt(i));
+		System.out.println();
 	}
 	
 	void stringEqualOrNot(String s1,String s2) {
 		// Write Logic Here!
-		if(s1.equalsIgnoreCase(s2))
-			System.out.println("Yes they are equal");
+		int n=s1.length()-1;
+		int m=s2.length();
+		int flag=0;
+		if(n!=m)
+			System.out.println("Not Equal");
 		else
-			System.out.println("No, they are not equal");
+		{
+			for(int i=0;i<n;i++)
+			{
+				if(s1.charAt(i)!=s2.charAt(i))
+				{
+					flag=1;
+					break;
+				}
+			}
+			if(flag==0)
+				System.out.println("Equal");
+			else
+				System.out.println("Not Equal");
+		}
 		
 		
 	}
