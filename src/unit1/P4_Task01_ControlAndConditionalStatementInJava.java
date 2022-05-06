@@ -2,15 +2,16 @@ package unit1;
 /*
  # Control Statements and Conditional Statements:
  - Java provides three types of control flow statements.
- - Decesions making statements
+ - Decisions making statements
    - if statements
    - switch statement
    
- - Loop ststements
+ - Loop statements
    - do while loop
    - while loop
    - for loop
    - for-each loop
+   
  - Jump statements 
    - break statement
    - continue statement    

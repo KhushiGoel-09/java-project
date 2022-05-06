@@ -19,7 +19,7 @@ public class P2_Task01_KeywordsInJava {
 		//new is a keyword so can't be used as function name
 		/*int new() {
 		 
-		 //sysout[ctrl + space]
+		 // sysout [ctrl + space]
 		System.out.println		 
 		 }*/
 	int b = 20;
