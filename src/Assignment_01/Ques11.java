@@ -1,4 +1,8 @@
 package Assignment_01;
+/*
+ *  If We Place Return Type In Constructor Prototype Will It Leads To Error? 
+ *  Ans. No, because compiler and JVM considers it as a method.
+ */
 
 	import java.util.Scanner;
 
