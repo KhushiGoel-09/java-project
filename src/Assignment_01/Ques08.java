@@ -1,7 +1,7 @@
 package Assignment_01;
 
 	import java.util.*;
-	public class Ques8 {
+	public class Ques08 {
 
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub

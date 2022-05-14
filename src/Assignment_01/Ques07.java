@@ -1,6 +1,6 @@
 package Assignment_01;
 
-public class Ques7 {
+public class Ques07 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

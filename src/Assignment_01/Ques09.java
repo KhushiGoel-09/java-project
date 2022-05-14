@@ -1,7 +1,7 @@
 package Assignment_01;
 
 	import unit2.*;
-	public class Ques9 {
+	public class Ques09 {
 	     
 	    public String name="KHUSHI";
 	    int age=20;
