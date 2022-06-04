@@ -113,7 +113,7 @@ class MultiThreading
 	 public void run() {
 		 for(int i=0;i<10;i++)
 		 {
-			 System.out.println("Hue HUE T1");
+			 System.out.println("Hi T1");
 		 }
 		 
 	 }
@@ -125,7 +125,7 @@ class T2 implements Runnable {
 		 
 		 for(int i=0;i<10;i++)
 		 {
-			 System.out.println("HUE HUE T2");
+			 System.out.println("hi T2");
 		 }
 		 
 	 }
@@ -139,7 +139,7 @@ class T3 implements Runnable {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		 System.out.println("HUE HUE T3");
+		 System.out.println("hi T3");
 		 
 		 
 	 }
@@ -150,7 +150,7 @@ class T4 extends Thread {
 		 
 		 for(int i=0;i<10;i++)
 		 {
-			 System.out.println("HUE HUE T4");
+			 System.out.println("hi T4");
 		 }
 		
 			
