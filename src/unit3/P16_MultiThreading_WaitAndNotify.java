@@ -28,11 +28,11 @@ class SharedResources {
 	int amt = 100000;
 	
 	synchronized void withdraw(int amt){
-		System.out.println("Going to withdraw!!");
+		System.out.println("Going to withdraw");
 		
 		if(this.amt<amt)
 		{
-			System.out.println("Less balance ; Waiting for Deposite!!!!!!!");
+			System.out.println("Less balance : Waiting for Deposite");
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -40,14 +40,14 @@ class SharedResources {
 			
 		}
 		this.amt-=amt;
-		System.out.println("Withdraw completed!");
+		System.out.println("Withdraw completed");
 	}
 	synchronized void deposite(int amt)
 	{
-		System.out.println("Going to deposite!!!");
+		System.out.println("Going to deposite");
 		this.amt+=amt;
 		
-		System.out.println("Deposite completed...!");
+		System.out.println("Deposite completed");
 		notify();  //OR  //notifyAll();
 		
 	}
