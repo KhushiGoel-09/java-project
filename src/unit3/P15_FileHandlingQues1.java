@@ -23,7 +23,7 @@ class A
 	int ctr=0;
 	void CountWord()  throws IOException
 	{
-		BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Khushi Goel\\git\\Java\\javaproject\\src\\unit3\\Input.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("C:/Users/User/eclipse-workspace/java project/src/unit3/Input.txt\"));
 		
 //		String s = br.readLine();
 		int str=0;
